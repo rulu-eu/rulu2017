@@ -8,3 +8,27 @@ h1 {
     text-transform: uppercase;
   }
 }
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: $base-spacing;
+
+  @include media($large-screen) {
+    flex-direction: row;
+  }
+
+  input {
+    @include media($large-screen) {
+      margin: 0;
+    }
+  }
+
+  .button {
+    margin-top: 0;
+
+    @include media($large-screen) {
+      margin-left: 1em;
+    }
+  }
+}
