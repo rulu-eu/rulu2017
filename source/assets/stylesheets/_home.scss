@@ -1,0 +1,10 @@
+h1 {
+  font-size: modular-scale(3, 16px);
+  font-weight: 500;
+
+  .conference-name {
+    font-size: modular-scale(4, 16px);
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}
