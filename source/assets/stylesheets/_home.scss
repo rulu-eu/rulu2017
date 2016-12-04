@@ -56,3 +56,13 @@ h1 {
     }
   }
 }
+
+.archive {
+  margin-top: $base-spacing * 3;
+  display: flex;
+}
+
+.archive-links li {
+  display: inline-block;
+  margin-left: 1em;
+}
