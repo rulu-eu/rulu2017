@@ -1,6 +1,7 @@
 // Breakpoints
-$medium-screen: 600px;
+$medium-screen: 700px;
 $large-screen: 900px;
+$max-width: 1080px;
 
 // Typography
 $base-font-family: $font-stack-system;
@@ -11,7 +12,7 @@ $base-font-size: 1em;
 
 $bourbon: (
   "modular-scale-base": 1em,
-  "modular-scale-ratio": $golden
+  "modular-scale-ratio": $perfect-fourth
 );
 
 // Line height

@@ -1,11 +1,35 @@
+.hero {
+  display: flex;
+  align-items: flex-start;
+}
+
+.lion {
+  display: none;
+  margin-right: 4em;
+  padding-top: $base-spacing;
+  flex: 0 0 350px;
+
+  @include media($large-screen) {
+    display: block;
+  }
+}
+
 h1 {
-  font-size: modular-scale(3, 16px);
+  font-size: modular-scale(4, 16px);
   font-weight: 500;
 
+  @include media($medium-screen) {
+    font-size: modular-scale(5, 16px);
+  }
+
   .conference-name {
-    font-size: modular-scale(4, 16px);
-    font-weight: 800;
+    font-size: modular-scale(6, 16px);
+    font-weight: 700;
     text-transform: uppercase;
+
+    @include media($medium-screen) {
+      font-size: modular-scale(7, 16px);
+    }
   }
 }
 
