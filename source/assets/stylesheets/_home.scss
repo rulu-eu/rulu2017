@@ -57,8 +57,15 @@ h1 {
   }
 }
 
+.sponsor {
+  margin-top: $base-spacing;
+  display: flex;
+}
+.sponsor p {
+  display: block;
+}
 .archive {
-  margin-top: $base-spacing * 3;
+  margin-top: $base-spacing;
   display: flex;
 }
 
