@@ -12,6 +12,15 @@
   </head>
 
   <body class="<%= page_classes %>">
+    <div class="navbar">
+      <ul>
+        <li><%= link_to 'Home', '/' %></li>
+        <li><a>CFP (coming soon)</a></li>
+        <li><%= link_to 'We\'re looking for sponsors!', '/sponsor.pdf' %></li>
+        <li><%= link_to 'Code of Conduct', '/coc/' %></li>
+      </ul>
+    </div>
+
     <%= yield %>
   </body>
   <%= javascript_include_tag  "application" %>
