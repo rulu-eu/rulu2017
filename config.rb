@@ -21,3 +21,12 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+helpers do
+  def link_to(link, url, opts={})
+    if current_resource.url == url_for(url)
+      opts[:class] = "active"
+    end
+    super(link, url, opts)
+  end
+end

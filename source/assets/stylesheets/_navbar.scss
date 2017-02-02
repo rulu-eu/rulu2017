@@ -1,0 +1,29 @@
+.navbar {
+  height: 1px;
+  margin: 3px $base-spacing 0px $base-spacing;
+
+  ul {
+    float: right;
+
+    li {
+      float: left;
+      margin: 0px 2px;
+
+      a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        border-radius: 4px;
+
+        &:hover {
+          background-color: #eee;
+        }
+
+        &.active {
+          background-color: #D00D04;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

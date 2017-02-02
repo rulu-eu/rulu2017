@@ -1,8 +1,5 @@
-body {
-  padding-top: $base-spacing;
-}
-
 .container {
   @include outer-container;
   padding: 0 $gutter;
+  margin-top: $base-spacing;
 }

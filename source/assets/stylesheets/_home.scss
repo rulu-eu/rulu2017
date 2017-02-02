@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   align-items: flex-start;
+  width: 100%;
 }
 
 .lion {
@@ -55,14 +56,6 @@ h1 {
       margin-left: 1em;
     }
   }
-}
-
-.sponsor {
-  margin-top: $base-spacing;
-  display: flex;
-}
-.sponsor p {
-  display: block;
 }
 .archive {
   margin-top: $base-spacing;
